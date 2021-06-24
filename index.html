@@ -98,11 +98,11 @@ body{
 <script>
 	var jump = document.querySelector('.dino');
 document.body.addEventListener('click',function(){
-	for(let i=0;i<jump.classList.length;i++){
-		if(jump.classList[i] !== 'animate'){
+	
+		if(jump.classList['animate']){
 	jump.classList.add('animate');
 	
-		}
+		
 	}
 	setTimeout(function(){
 		jump.classList.remove('animate');

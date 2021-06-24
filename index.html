@@ -97,9 +97,14 @@ body{
 </style>
 <script>
 	var jump = document.querySelector('.dino');
-document.body.addEventListener('click',function(){
+document.body.addEventListener('click',function(){function no(){for(let i=0;i<jump.classList.length;i++
 	
-		if(jump.classList['animate']){
+){if(jump.classList[i] === 'animate' ){return false;
+	
+}
+ return true;}if(no()){
+	
+		
 	jump.classList.add('animate');
 	
 		
